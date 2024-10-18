@@ -6,14 +6,3 @@ If you haven't already, download and install Python from https://python.org. Exp
 python kaspersky_to_keepass.py
 
 The script will create a kaspersky_passwords.csv file. Open KeePass and go to File > Import and select the kaspersky_passwords.csv file. Be sure to securely delete both the .txt and .csv files as they contain all your passwords in plain text. Follow the on-screen prompts. That's it, you're done!
-
-Note: For the script to work, your Kaspersky .txt file's output needs to resemble the following format:
-
-Website name: myFavoriteWebsite
-Website URL: https://myFavoriteWebsite.org
-Login name: myLoginName
-Login: myLogin
-Password: mySuperStrongPassword1!
-Comment: Hello World!
-
----
